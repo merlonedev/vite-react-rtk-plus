@@ -1,0 +1,1 @@
+# Global interfaces for the app
