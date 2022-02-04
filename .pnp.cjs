@@ -35,9 +35,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@originjs/vite-plugin-global-style", "npm:1.0.2"],
             ["@reduxjs/toolkit", "virtual:bada8722c4a4722ae292ef42e6e7c1247c0168ff148e221540004a7c9d0f17af0a654441a2ae409a8d8c0474bbbaefd6fb0d2acfaba4b71f08de3b61e5b85b3a#npm:1.7.2"],
             ["@types/node", "npm:14.0.0"],
             ["@types/react", "npm:17.0.39"],
+            ["@types/react-bootstrap", "npm:0.32.29"],
             ["@types/react-dom", "npm:17.0.11"],
             ["@types/react-redux", "npm:7.1.7"],
             ["@types/react-router-dom", "npm:5.1.3"],
@@ -3354,6 +3356,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@originjs/vite-plugin-global-style", [
+        ["npm:1.0.2", {
+          "packageLocation": "./.yarn/cache/@originjs-vite-plugin-global-style-npm-1.0.2-22c66408f1-fc9d3e3c66.zip/node_modules/@originjs/vite-plugin-global-style/",
+          "packageDependencies": [
+            ["@originjs/vite-plugin-global-style", "npm:1.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@pmmmwh/react-refresh-webpack-plugin", [
         ["npm:0.5.4", {
           "packageLocation": "./.yarn/cache/@pmmmwh-react-refresh-webpack-plugin-npm-0.5.4-17669decc4-66deb75fe0.zip/node_modules/@pmmmwh/react-refresh-webpack-plugin/",
@@ -4208,6 +4219,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prop-types", "npm:15.7.4"],
             ["@types/scheduler", "npm:0.16.2"],
             ["csstype", "npm:3.0.10"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/react-bootstrap", [
+        ["npm:0.32.29", {
+          "packageLocation": "./.yarn/cache/@types-react-bootstrap-npm-0.32.29-7192d0b280-9a6238b22b.zip/node_modules/@types/react-bootstrap/",
+          "packageDependencies": [
+            ["@types/react-bootstrap", "npm:0.32.29"],
+            ["@types/react", "npm:17.0.39"]
           ],
           "linkType": "HARD",
         }]
@@ -14434,9 +14455,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["react-redux-template", "workspace:."],
+            ["@originjs/vite-plugin-global-style", "npm:1.0.2"],
             ["@reduxjs/toolkit", "virtual:bada8722c4a4722ae292ef42e6e7c1247c0168ff148e221540004a7c9d0f17af0a654441a2ae409a8d8c0474bbbaefd6fb0d2acfaba4b71f08de3b61e5b85b3a#npm:1.7.2"],
             ["@types/node", "npm:14.0.0"],
             ["@types/react", "npm:17.0.39"],
+            ["@types/react-bootstrap", "npm:0.32.29"],
             ["@types/react-dom", "npm:17.0.11"],
             ["@types/react-redux", "npm:7.1.7"],
             ["@types/react-router-dom", "npm:5.1.3"],
