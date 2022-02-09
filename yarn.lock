@@ -2424,7 +2424,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/history@npm:*, @types/history@npm:^4.7.11":
+"@types/history@npm:^4.7.11":
   version: 4.7.11
   resolution: "@types/history@npm:4.7.11"
   checksum: c92e2ba407dcab0581a9afdf98f533aa41b61a71133420a6d92b1ca9839f741ab1f9395b17454ba5b88cb86020b70b22d74a1950ccfbdfd9beeaa5459fdc3464
@@ -2517,10 +2517,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.0.0":
-  version: 14.0.0
-  resolution: "@types/node@npm:14.0.0"
-  checksum: ff67a24333a7ecdd5ed0dbbf2b6ef41ec47de107776d808201602c1e37f09d4136bba3d70aed445d87286471203bbcab3c0c6a98a9fad8dfb9b91a42b0e02144
+"@types/node@npm:^17.0.16":
+  version: 17.0.16
+  resolution: "@types/node@npm:17.0.16"
+  checksum: 2d452a9e0ee7ec83d447d66dd2baf4dd05ef2fbcda39b06f73d86b36d5150d86c43a733d534d77467e7782104756944d42a35ed4b64113bda341b8334ee4d01d
   languageName: node
   linkType: hard
 
@@ -2575,7 +2575,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.10":
+"@types/react-dom@npm:^17.0.11":
   version: 17.0.11
   resolution: "@types/react-dom@npm:17.0.11"
   dependencies:
@@ -2584,26 +2584,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:7.1.7":
-  version: 7.1.7
-  resolution: "@types/react-redux@npm:7.1.7"
+"@types/react-redux@npm:^7.1.22":
+  version: 7.1.22
+  resolution: "@types/react-redux@npm:7.1.22"
   dependencies:
     "@types/hoist-non-react-statics": ^3.3.0
     "@types/react": "*"
     hoist-non-react-statics: ^3.3.0
     redux: ^4.0.0
-  checksum: 69da45a3ef2fe6edf30dd9e6b7c6d675701bdd8cf9b12cafaf8f578bf91af9903645d463ae7ae5f057bedb4837178647e39bd0b4d3b4902778d45170d1273658
+  checksum: eef458c0cda27eabd8d458b7fc40553aab8d2f218145b896b9059b86d88680ae479079aee13683f2a0f35774f20346b732e91182252402bd8777455e004561c9
   languageName: node
   linkType: hard
 
-"@types/react-router-dom@npm:5.1.3":
-  version: 5.1.3
-  resolution: "@types/react-router-dom@npm:5.1.3"
+"@types/react-router-dom@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "@types/react-router-dom@npm:5.3.3"
   dependencies:
-    "@types/history": "*"
+    "@types/history": ^4.7.11
     "@types/react": "*"
     "@types/react-router": "*"
-  checksum: 49a7fcb76d7559cf33e79d9a08238fcaf56fc5061ced6160e3ffb03ac7714f6a9a45aeba52b1ec5d5e3bebcd2e9c27d83f12079637aaa6612429c77ce2ac6bd6
+  checksum: 28c4ea48909803c414bf5a08502acbb8ba414669b4b43bb51297c05fe5addc4df0b8fd00e0a9d1e3535ec4073ef38aaafac2c4a2b95b787167d113bc059beff3
   languageName: node
   linkType: hard
 
@@ -2626,7 +2626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16.14.8, @types/react@npm:>=16.9.11, @types/react@npm:^17.0.33":
+"@types/react@npm:*, @types/react@npm:>=16.14.8, @types/react@npm:>=16.9.11, @types/react@npm:^17.0.39":
   version: 17.0.39
   resolution: "@types/react@npm:17.0.39"
   dependencies:
@@ -10327,12 +10327,12 @@ __metadata:
   dependencies:
     "@originjs/vite-plugin-global-style": ^1.0.2
     "@reduxjs/toolkit": ^1.7.1
-    "@types/node": 14.0.0
-    "@types/react": ^17.0.33
+    "@types/node": ^17.0.16
+    "@types/react": ^17.0.39
     "@types/react-bootstrap": ^0.32.29
-    "@types/react-dom": ^17.0.10
-    "@types/react-redux": 7.1.7
-    "@types/react-router-dom": 5.1.3
+    "@types/react-dom": ^17.0.11
+    "@types/react-redux": ^7.1.22
+    "@types/react-router-dom": ^5.3.3
     "@typescript-eslint/eslint-plugin": ^5.10.2
     "@typescript-eslint/parser": ^5.10.2
     "@vitejs/plugin-react": ^1.0.7
